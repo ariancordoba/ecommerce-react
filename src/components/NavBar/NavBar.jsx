@@ -30,11 +30,8 @@ const NavBar = () => {
                                     <li className="nav-item">
                                         <NavLink className="nav-link" to={"/category/running"}>Running</NavLink>
                                     </li>
-                                    <li className="nav-item">
-                                        <NavLink className="nav-link" to={"/category/holidays"}>Holidays</NavLink>
-                                    </li>
                                 </ul>
-                                <div className="col-md-10 d-flex justify-content-end align-items-center">
+                                <div className="col-md-12 d-flex justify-content-end align-items-center">
                                     <CartWidget />
                                 </div>
                             </div>
