@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const HeaderTop = () => {
     return(
@@ -10,7 +9,7 @@ const HeaderTop = () => {
                 </div>
                 <div className="col">
                     <p className="row_info text-center align-middle">
-                            <p>MI CUENTA | MI LISTA DE DESEOS | INICIAR SESION</p>
+                        <p>MI CUENTA | MI LISTA DE DESEOS | INICIAR SESION</p>
                     </p>
                 </div>
             </div>
